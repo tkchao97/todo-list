@@ -13,7 +13,7 @@
 
 # Problem - To-Do List Web Application
 
-You are tasked with creating a simple To-Do List web application using HTML, CSS, and JavaScript. The application should allow users to add, edit, and delete tasks. Tasks should have a title, description, status (completed or not), and priority. The design should be clean and intuitive.
+Your mission is to develop a basic To-Do List web application. You have the flexibility to use fundamental HTML, CSS, and JavaScript or opt for a broader range of web stacks, such as React, Bootstrap, Angular, Laravel, or even WebAssembly (WASM). This application must enable users to seamlessly add, modify, and remove tasks, each characterized by a title, description, status (complete or pending), and priority. The design should be clean and intuitive.
 
 ## Requirements
 
