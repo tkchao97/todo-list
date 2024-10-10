@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, rgb(235, 236, 238), rgb(163, 160, 170));
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    color: #0b0611;
+    letter-spacing: 0.5px;
+    text-shadow: 2px 2px 3px rgb(93, 85, 85); 
+    font-family:'Courier New', Courier;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display:flex
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #025814;
+}
+
+.container-2,
+.container-3 {
+    display: none;
+    max-width: 750px;
+    margin: auto;
+    padding: 20px;
+    user-select: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #f8f9fa;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    cursor:  default;
+    user-select: none;
+}
+
+.completed {
+    border-left: 20px solid green;
+}
+
+.priority-high {
+    border-left: 20px solid red;
+}
+
+.priority-medium {
+    border-left: 20px solid orange;
+}
+
+.priority-low {
+    border-left: 20px solid rgba(249, 212, 6, 0.754);
+}
+
+.edit-btn,
+.delete-btn,
+.complete-btn {
+    position: block;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.edit-btn {
+    color: blue;
+}
+.edit-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+.delete-btn {
+    color: red;
+}
+
+.delete-btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.complete-btn {
+    color: green;
+}
+
+.complete-btn:hover {
+    background-color: green;
+    color: white;
+}
